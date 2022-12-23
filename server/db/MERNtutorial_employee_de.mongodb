@@ -1,0 +1,6 @@
+// Select the database to use.
+use('MERNstackDB');
+
+db.employee.deleteOne(
+   { name: "Wesley" }
+)

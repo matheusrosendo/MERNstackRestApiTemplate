@@ -1,0 +1,6 @@
+// Select the database to use.
+use('MERNstackDB');
+
+db.employee.insertOne( 
+   { name: "Wesley",  position: "IT analyst", level: "Intern" }
+ );

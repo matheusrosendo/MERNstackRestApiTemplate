@@ -1,0 +1,10 @@
+// Select the database to use.
+use('MERNstackDB');
+
+db.employee.updateOne(
+   { name: "Matheus" },
+   {
+     $set: { position: "Blockchain Arquitect"},
+     $currentDate: { lastModified: true }
+   }
+)

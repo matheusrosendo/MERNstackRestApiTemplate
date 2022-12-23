@@ -1,0 +1,9 @@
+// Select the database to use.
+use('MERNstackDB');
+
+db.employee.insertMany( [
+   { name: "Miguel", position: "Luthier", age: 26, level: "Junior" },
+   { name: "Victor", position: "Antropologist", age: 33, level: "Junior"},
+   { name: "Virginia", position: "CTO", age: 38, level: "Senior" },
+   { name: "Matheus", position: "Blockchain Dev", age: 35, level: "Senior" }
+] );
