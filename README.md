@@ -5,6 +5,10 @@ Based on Mongodb tutorial [How to Use MERN Stack: A Complete Guide](https://www.
 ![Licence](https://img.shields.io/github/license/matheusrosendo/TokenizationLabFixedSupply)
 ![main workflow](https://github.com/mongodb-developer/mongodb-express-rest-api-example/actions/workflows/main.yml/badge.svg)
 
+## Requirements
+* npm version ^16
+* Visual Studio Code
+
 ## How To Run
 0. Clone this repo
 
@@ -36,9 +40,9 @@ Create a Record
 Edit that record
 
 
-5. Install Visual Studio Code and MongoDB extension 
-* Use the same connecting string contained in .env file to connect to Atlas MongoDb using the VS code MongoDb extension
-* Open MERNtutorial_employee_populate.mongodb and press 'Play' button
+5. Install Visual Studio Code and MongoDB extension https://code.visualstudio.com/docs/azure/mongodb
+* * Use the same connecting string contained in .env file to connect to Atlas MongoDb using the VS code MongoDb extension
+* * Open MERNtutorial_employee_populate.mongodb and press 'Play' button
 
 6. Check out new records inserted on both Atlas UI and localhost 
 * Go to https://cloud.mongodb.com/
