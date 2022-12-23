@@ -9,6 +9,9 @@ Based on Mongodb tutorial [How to Use MERN Stack: A Complete Guide](https://www.
 * npm version ^16
 * Visual Studio Code
 
+## Arquitecture
+![alt text](https://github.com/matheusrosendo/MERNstackRestApiTemplate/blob/main/arquitecture.png)
+
 ## How To Run
 0. Clone this repo
 
@@ -41,16 +44,16 @@ Edit that record
 
 
 5. Install Visual Studio Code and MongoDB extension https://code.visualstudio.com/docs/azure/mongodb
-* * Use the same connecting string contained in .env file to connect to Atlas MongoDb using the VS code MongoDb extension
-* * Open MERNtutorial_employee_populate.mongodb and press 'Play' button
+    * Use the same connecting string contained in .env file to connect to Atlas MongoDb using the VS code MongoDb extension
+    * Open MERNtutorial_employee_populate.mongodb and press 'Play' button
 
 6. Check out new records inserted on both Atlas UI and localhost 
-* Go to https://cloud.mongodb.com/
+    * Go to https://cloud.mongodb.com/
 navigate to collections > MERNstackDB > employee and check new records just inserted
-* Refresh your localhost:3000 on browser and check if the new records are there
+    * Refresh your localhost:3000 on browser and check if the new records are there
 
 7. You can also execute the other mongoDb files to get used to mongodb shell  sintax for insert, erase, update and delete data on mongodb:
-* open server/db/MERNtutorial_* files and execute them
+    * open server/db/MERNtutorial_* files and execute them
 
 
 
